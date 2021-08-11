@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../images/header.jpg");
+		background-image: url("https://images3.alphacoders.com/114/114645.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2203,6 +2203,7 @@ input, select, textarea {
 
 		#header header {
 			display: inline-block;
+			
 		}
 
 			#header header > p {
@@ -2257,7 +2258,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #7d9bdb;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2460,7 +2461,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #33424d;
 		color: #fff;
 	}
 
