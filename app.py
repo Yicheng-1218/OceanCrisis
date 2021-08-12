@@ -47,5 +47,15 @@ def coralreef():
     return render_template('coralreef.html')
 
 
+@app.route('/onedaybio.html')
+def onedaybio():
+    return render_template('onedaybio.html')
+
+
+@app.route('/seatrash.html')
+def seatrash():
+    return render_template('seatrash.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True)

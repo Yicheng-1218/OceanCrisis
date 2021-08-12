@@ -2456,6 +2456,10 @@ input, select, textarea {
 		}
 
 /* Footer */
+	
+	#ref h4{
+		margin: 14.5px;
+	}
 
 	#footer {
 		position: relative;
