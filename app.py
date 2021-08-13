@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import os
 app = Flask(__name__)
 
 
@@ -58,4 +59,7 @@ def seatrash():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    # !正式入口
+    app.run(host='0.0.0.0', port=port)
+    # app.run(debug=True)
