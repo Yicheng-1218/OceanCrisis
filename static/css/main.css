@@ -2590,9 +2590,11 @@ input, select, textarea {
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
+			
 		}
 
 		.carousel article {
+			box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.35);
 			display: inline-block;
 			width: 18em;
 			background: #fff;
@@ -2740,7 +2742,7 @@ input, select, textarea {
 
 /* Mobile */
 
-	#navPanel, #titleBar {
+	#navPanel, #titleBar, #photos {
 		display: none;
 	}
 
