@@ -2742,11 +2742,15 @@ input, select, textarea {
 
 /* Mobile */
 
-	#navPanel, #titleBar, #photos {
+	#navPanel, #titleBar {
 		display: none;
 	}
 
 	@media screen and (max-width: 736px) {
+		/* hide photos */
+		#photos{
+			display: none;
+		}
 
 		/* Basic */
 
