@@ -2300,7 +2300,7 @@ header .icon.circled {
 
 #header {
 	position: relative;
-	background-image: url("https://yicheng-1218.github.io/OceanCrisis/static/images/114645.jpg");
+	background: url("../images/114645.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
